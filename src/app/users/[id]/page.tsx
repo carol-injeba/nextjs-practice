@@ -8,7 +8,7 @@ export default function UserDetailsPage() {
 
   return (
     <>
-      <h1>User Details for {id}</h1>
+      <h2>User Details for {id}</h2>
       <Link href="/users/list">Back to Users List Page</Link>
     </>
   );

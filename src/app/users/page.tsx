@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function UsersPage() {
   return (
     <div>
-      <h1>Users Home Page</h1>
+      <h2>Users Page</h2>
       <Link href="/" prefetch={false}>
         Back to Home
       </Link>

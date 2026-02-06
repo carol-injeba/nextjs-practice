@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export default async function ListPage() {
   // Simulate loading delay
-  await new Promise(resolve => setTimeout(resolve, 2000));
-  
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
   const users = ["Alice", "Bob", "John", "Doe"];
   return (
     <>
-      <h1>List Page</h1>
+      <h2>List Page</h2>
       <ul>
         {users.map((user, index) => (
           <li key={index}>
-            <Link href={`${user}`}>{user}</Link>
+            <Link href={`/users/${user}`}>{user}</Link>
           </li>
         ))}
       </ul>

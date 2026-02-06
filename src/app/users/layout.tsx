@@ -5,7 +5,7 @@ export default function UsersModule({
 }) {
   return (
     <>
-      <h2>User's module</h2>
+      <h1>User's Layout</h1>
       {children}
     </>
   );
